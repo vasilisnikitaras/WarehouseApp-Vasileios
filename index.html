@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Endora Warehouse</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="manifest" href="manifest.json">
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
 </head>
 <body>
@@ -52,5 +54,13 @@
 
   <footer>© Endora Warehouse by Vasilis Nikitaras</footer>
   <script src="js/script.js" defer></script>
+
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js")
+      .then(() => console.log("Service Worker registered"));
+  }
+</script>
+
 </body>
 </html>
