@@ -41,3 +41,20 @@
 
 ## 📁 Δομή φακέλων
 
+
+---
+
+## 👤 Δημιουργός
+
+**Vasileios Nikitaras**  
+📍 Laval, QC, Canada  
+📧 [LinkedIn / GitHub profile links here]
+
+---
+
+## 📌 Σημειώσεις
+
+Αυτή είναι demo έκδοση. Για παραγωγή, προτείνεται χρήση Firebase ή Supabase για ασφαλή αποθήκευση χρηστών και αντικειμένων.
+
+---
+
